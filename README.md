@@ -24,8 +24,9 @@ curl -O -L https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealE
 curl -O -L https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth
 curl -O -L https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
 ```
-Finally, we can run inference images in the inputs folder. Replace -n argument with model name (RealESRGAN_x2plus, RealESRGAN_x4plus, RealESRGAN_x4plus_anime_6B, etc).
+Finally, head over to the root directory with the inference script and we can run inference images in the inputs folder. Replace -n argument with model name (RealESRGAN_x2plus, RealESRGAN_x4plus, RealESRGAN_x4plus_anime_6B, etc).
 ```
+cd ..
 python inference_realesrgan.py -n RealESRGAN_x2plus -i inputs 
 ```
 Outputs are going to be in the results folder.
