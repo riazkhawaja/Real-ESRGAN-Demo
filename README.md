@@ -4,7 +4,7 @@ Installation:
 Have anaconda or miniconda installed (recommended) or latest python version.  
 Miniconda: https://docs.conda.io/projects/miniconda/en/latest/index.html  
 Python: https://www.python.org/downloads/
-Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git (or you can download the repo manually)
+Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git (or you can download the repo manually)  
 Have git installed and in PATH.  
 If your Nvidia GPU is compatiable with CUDA, please download that as well for much faster inference speeds. https://developer.nvidia.com/cuda-downloads  
   
