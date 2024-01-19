@@ -1,4 +1,5 @@
 # Real-ESRGAN-Demo
+This is a demo of how Real-ESRGAN can be used to upscale images. If you are not on windows, some commands will be different.
 
 Installation:  
 Have anaconda or miniconda installed (recommended) or latest python version.  
